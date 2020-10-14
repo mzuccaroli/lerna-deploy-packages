@@ -1,5 +1,5 @@
 {
-  "name": "package_1",
+  "name": "@mzuccaroli/package_1",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "mzuccaroli <marcozuccaroli@gmail.com>",
@@ -18,9 +18,13 @@
     "url": "git+https://github.com/mzuccaroli/lerna-deploy-packages.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "deploy": "echo \"Mock build & deploy script for package 1\" && exit 0"
   },
   "bugs": {
     "url": "https://github.com/mzuccaroli/lerna-deploy-packages/issues"
+  },
+  "devDependencies": {
+    "@mzuccaroli/package_2": "1.0.0"
   }
 }
